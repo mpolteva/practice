@@ -44,6 +44,8 @@
             this.btn_new = new System.Windows.Forms.Button();
             this.btn_close = new System.Windows.Forms.Button();
             this.btn_do = new System.Windows.Forms.Button();
+            this.rb_Method = new System.Windows.Forms.RadioButton();
+            this.rv_Event = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -170,6 +172,8 @@
             this.groupBox3.Controls.Add(this.btn_new);
             this.groupBox3.Controls.Add(this.btn_close);
             this.groupBox3.Controls.Add(this.btn_do);
+            this.groupBox3.Controls.Add(this.rb_Method);
+            this.groupBox3.Controls.Add(this.rv_Event);
             this.groupBox3.Location = new System.Drawing.Point(17, 125);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(339, 100);
@@ -180,9 +184,9 @@
             // btn_new
             // 
             this.btn_new.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btn_new.Location = new System.Drawing.Point(131, 33);
+            this.btn_new.Location = new System.Drawing.Point(175, 57);
             this.btn_new.Name = "btn_new";
-            this.btn_new.Size = new System.Drawing.Size(75, 47);
+            this.btn_new.Size = new System.Drawing.Size(75, 23);
             this.btn_new.TabIndex = 5;
             this.btn_new.Text = "Новое";
             this.btn_new.UseVisualStyleBackColor = false;
@@ -191,9 +195,9 @@
             // btn_close
             // 
             this.btn_close.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btn_close.Location = new System.Drawing.Point(226, 33);
+            this.btn_close.Location = new System.Drawing.Point(257, 19);
             this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(75, 47);
+            this.btn_close.Size = new System.Drawing.Size(75, 61);
             this.btn_close.TabIndex = 4;
             this.btn_close.Text = "Завершить";
             this.btn_close.UseVisualStyleBackColor = false;
@@ -202,13 +206,38 @@
             // btn_do
             // 
             this.btn_do.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btn_do.Location = new System.Drawing.Point(26, 33);
+            this.btn_do.Location = new System.Drawing.Point(175, 19);
             this.btn_do.Name = "btn_do";
-            this.btn_do.Size = new System.Drawing.Size(75, 47);
+            this.btn_do.Size = new System.Drawing.Size(75, 23);
             this.btn_do.TabIndex = 3;
             this.btn_do.Text = "Вычислить";
             this.btn_do.UseVisualStyleBackColor = false;
             this.btn_do.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // rb_Method
+            // 
+            this.rb_Method.AutoSize = true;
+            this.rb_Method.BackColor = System.Drawing.Color.Transparent;
+            this.rb_Method.Location = new System.Drawing.Point(17, 57);
+            this.rb_Method.Name = "rb_Method";
+            this.rb_Method.Size = new System.Drawing.Size(57, 17);
+            this.rb_Method.TabIndex = 1;
+            this.rb_Method.TabStop = true;
+            this.rb_Method.Text = "Метод";
+            this.rb_Method.UseVisualStyleBackColor = false;
+            // 
+            // rv_Event
+            // 
+            this.rv_Event.AutoSize = true;
+            this.rv_Event.BackColor = System.Drawing.Color.Transparent;
+            this.rv_Event.Checked = true;
+            this.rv_Event.Location = new System.Drawing.Point(17, 25);
+            this.rv_Event.Name = "rv_Event";
+            this.rv_Event.Size = new System.Drawing.Size(69, 17);
+            this.rv_Event.TabIndex = 0;
+            this.rv_Event.TabStop = true;
+            this.rv_Event.Text = "Событие";
+            this.rv_Event.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -227,6 +256,7 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -249,6 +279,8 @@
         private System.Windows.Forms.Button btn_new;
         private System.Windows.Forms.Button btn_close;
         private System.Windows.Forms.Button btn_do;
+        private System.Windows.Forms.RadioButton rb_Method;
+        private System.Windows.Forms.RadioButton rv_Event;
     }
 }
 

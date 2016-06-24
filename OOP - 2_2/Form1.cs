@@ -16,7 +16,25 @@ namespace OOP___2_2
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Метод для решения кв.уравнения
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <param name="c"></param>
+        public void Kv_Uravnenie(double a, double b, double c)
+        {
+            if (D >= 0)
+            {
+                txt_result_x1.Text = Convert.ToString(Math.Round((((-b) + Math.Sqrt(D)) / (2 * a)), 2));
+                txt_result_x2.Text = Convert.ToString(Math.Round((((-b) - Math.Sqrt(D)) / (2 * a)), 2));
+            }
+            if (D < 0)
+            {
+                MessageBox.Show("Дискриминант меньше нуля!");
+                btn_new.PerformClick();
+            }
+        }
         /// <summary>
         /// Закрытие приложения
         /// </summary>
@@ -54,7 +72,8 @@ namespace OOP___2_2
                 else
                 {
                     D = (b * b) - (4 * a * c);
-                    
+                    if (rv_Event.Checked)
+                    {
                         if (D >= 0)
                         {
                             txt_result_x1.Text = Convert.ToString(Math.Round((((-b) + Math.Sqrt(D))/ (2 * a)),2));
@@ -65,9 +84,11 @@ namespace OOP___2_2
                         MessageBox.Show("Дискриминант меньше нуля!");
                         btn_new.PerformClick();
                     }
-                    
-                    
-                    
+                    }
+                    if (rb_Method.Checked)
+                    {
+                        Kv_Uravnenie(a, b, c);//Вызов метода для вычисления корней
+                    }
                 }
             }
         /// <summary>
