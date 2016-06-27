@@ -21,11 +21,3 @@ D:\1учеба\###СЕМЕСТР_2.4\ООП\2\OOP - 2_2\OOP - 2_2\obj\x86\Debug\
 D:\1учеба\###СЕМЕСТР_2.4\ООП\2\OOP - 2_2\OOP - 2_2\obj\x86\Debug\OOP - 2_2.csproj.GenerateResource.Cache
 D:\1учеба\###СЕМЕСТР_2.4\ООП\2\OOP - 2_2\OOP - 2_2\bin\Debug\OOP - 2_2.exe
 D:\1учеба\###СЕМЕСТР_2.4\ООП\2\OOP - 2_2\OOP - 2_2\bin\Debug\OOP - 2_2.pdb
-D:\1учеба\###СЕМЕСТР_2.4\ПРАТКИКА\ВАРИАНТ#1\OOP - 2_2\OOP - 2_2\obj\x86\Debug\OOP - 2_2.exe
-D:\1учеба\###СЕМЕСТР_2.4\ПРАТКИКА\ВАРИАНТ#1\OOP - 2_2\OOP - 2_2\obj\x86\Debug\OOP - 2_2.pdb
-D:\1учеба\###СЕМЕСТР_2.4\ПРАТКИКА\ВАРИАНТ#1\OOP - 2_2\OOP - 2_2\bin\Debug\OOP - 2_2.exe
-D:\1учеба\###СЕМЕСТР_2.4\ПРАТКИКА\ВАРИАНТ#1\OOP - 2_2\OOP - 2_2\bin\Debug\OOP - 2_2.pdb
-D:\1учеба\###СЕМЕСТР_2.4\ПРАТКИКА\ВАРИАНТ#1\OOP - 2_2\OOP - 2_2\obj\x86\Debug\OOP - 2_2.csprojResolveAssemblyReference.cache
-D:\1учеба\###СЕМЕСТР_2.4\ПРАТКИКА\ВАРИАНТ#1\OOP - 2_2\OOP - 2_2\obj\x86\Debug\OOP___2_2.Form1.resources
-D:\1учеба\###СЕМЕСТР_2.4\ПРАТКИКА\ВАРИАНТ#1\OOP - 2_2\OOP - 2_2\obj\x86\Debug\OOP___2_2.Properties.Resources.resources
-D:\1учеба\###СЕМЕСТР_2.4\ПРАТКИКА\ВАРИАНТ#1\OOP - 2_2\OOP - 2_2\obj\x86\Debug\OOP - 2_2.csproj.GenerateResource.Cache

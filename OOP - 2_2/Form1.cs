@@ -89,6 +89,14 @@ namespace OOP___2_2
                     {
                         Kv_Uravnenie(a, b, c);//Вызов метода для вычисления корней
                     }
+                    if (rb_Class.Checked)
+                    {
+                        string x1 = null;
+                        string x2 = null;
+                        MyClass.Square(a, b, c, ref x1, ref x2);//Вызов метода из отдельного класса
+                        txt_result_x1.Text = x1;
+                        txt_result_x2.Text = x2;
+                    }
                 }
             }
         /// <summary>
