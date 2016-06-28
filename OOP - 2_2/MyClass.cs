@@ -18,8 +18,8 @@ namespace OOP___2_2
             }
             if (d < 0)
             {
-                MessageBox.Show("Дискриминант меньше нуля!");
-
+                x1 = Convert.ToString(Math.Round((-b) / (2 * a), 2) + " + " + Math.Round(Math.Sqrt(-d) / (2 * a), 2) + "i");
+                x2 = Convert.ToString(Math.Round((-b) / (2 * a), 2) + " - " + Math.Round(Math.Sqrt(-d) / (2 * a), 2) + "i");
             }
         }
     }

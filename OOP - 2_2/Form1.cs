@@ -31,8 +31,8 @@ namespace OOP___2_2
             }
             if (D < 0)
             {
-                MessageBox.Show("Дискриминант меньше нуля!");
-                btn_new.PerformClick();
+                txt_result_x1.Text = Convert.ToString(Math.Round((-b) / (2 * a), 2) + " + " + Math.Round(Math.Sqrt(-D) / (2 * a), 2) + "i");
+                txt_result_x2.Text = Convert.ToString(Math.Round((-b) / (2 * a), 2) + " - " + Math.Round(Math.Sqrt(-D) / (2 * a), 2) + "i");
             }
         }
         /// <summary>
@@ -81,9 +81,9 @@ namespace OOP___2_2
                         }
                         if (D < 0)
                         {
-                        MessageBox.Show("Дискриминант меньше нуля!");
-                        btn_new.PerformClick();
-                    }
+                            txt_result_x1.Text = Convert.ToString(Math.Round((-b) / (2 * a),2) + " + " + Math.Round(Math.Sqrt(-D) / (2 * a),2) + "i");
+                            txt_result_x2.Text = Convert.ToString(Math.Round((-b) / (2 * a),2) + " - " + Math.Round(Math.Sqrt(-D) / (2 * a),2) + "i");
+                        }
                     }
                     if (rb_Method.Checked)
                     {
