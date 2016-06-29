@@ -47,6 +47,7 @@
             this.rb_Class = new System.Windows.Forms.RadioButton();
             this.rb_Method = new System.Windows.Forms.RadioButton();
             this.rv_Event = new System.Windows.Forms.RadioButton();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -170,6 +171,7 @@
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox3.Controls.Add(this.button1);
             this.groupBox3.Controls.Add(this.btn_new);
             this.groupBox3.Controls.Add(this.btn_close);
             this.groupBox3.Controls.Add(this.btn_do);
@@ -186,9 +188,9 @@
             // btn_new
             // 
             this.btn_new.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btn_new.Location = new System.Drawing.Point(175, 57);
+            this.btn_new.Location = new System.Drawing.Point(130, 57);
             this.btn_new.Name = "btn_new";
-            this.btn_new.Size = new System.Drawing.Size(75, 23);
+            this.btn_new.Size = new System.Drawing.Size(88, 23);
             this.btn_new.TabIndex = 5;
             this.btn_new.Text = "Новое";
             this.btn_new.UseVisualStyleBackColor = false;
@@ -197,9 +199,9 @@
             // btn_close
             // 
             this.btn_close.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btn_close.Location = new System.Drawing.Point(257, 19);
+            this.btn_close.Location = new System.Drawing.Point(241, 19);
             this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(75, 61);
+            this.btn_close.Size = new System.Drawing.Size(91, 24);
             this.btn_close.TabIndex = 4;
             this.btn_close.Text = "Завершить";
             this.btn_close.UseVisualStyleBackColor = false;
@@ -208,9 +210,9 @@
             // btn_do
             // 
             this.btn_do.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btn_do.Location = new System.Drawing.Point(175, 19);
+            this.btn_do.Location = new System.Drawing.Point(130, 20);
             this.btn_do.Name = "btn_do";
-            this.btn_do.Size = new System.Drawing.Size(75, 23);
+            this.btn_do.Size = new System.Drawing.Size(88, 23);
             this.btn_do.TabIndex = 3;
             this.btn_do.Text = "Вычислить";
             this.btn_do.UseVisualStyleBackColor = false;
@@ -252,6 +254,17 @@
             this.rv_Event.TabStop = true;
             this.rv_Event.Text = "Событие";
             this.rv_Event.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button1.Location = new System.Drawing.Point(241, 57);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(91, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "О программе";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // Form1
             // 
@@ -296,6 +309,7 @@
         private System.Windows.Forms.RadioButton rb_Class;
         private System.Windows.Forms.RadioButton rb_Method;
         private System.Windows.Forms.RadioButton rv_Event;
+        private System.Windows.Forms.Button button1;
     }
 }
 

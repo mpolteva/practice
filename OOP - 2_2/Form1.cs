@@ -16,6 +16,11 @@ namespace OOP___2_2
         {
             InitializeComponent();
         }
+
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            new AboutBox1().ShowDialog();
+        }
         /// <summary>
         /// Метод для решения кв.уравнения
         /// </summary>

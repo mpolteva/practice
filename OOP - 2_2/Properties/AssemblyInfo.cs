@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("OOP - 2_2")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("SolOfQuadraticEquations")]
+[assembly: AssemblyDescription("Решение квадратных уравнений с комплексными корнями")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("OOP - 2_2")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCompany("KhAI 2016")]
+[assembly: AssemblyProduct("Prog")]
+[assembly: AssemblyCopyright("Masha Polteva")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
